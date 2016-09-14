@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="iOS Automation">
+    <test name="Smoke Test">
+    	<classes>
+        	<class name="testNGiOSFiles.SmartAppTC1iOS" />
+        	
+  		</classes>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="testNGFiles.SmartAppTC1">
+        <methods>
+          <include name="clickQAPushNotification1"/>
+          <include name="clickFAB1"/>
+          <include name="clickADDFAB"/>
+          <include name="login"/>
+          <include name="enterDataQAPushNotification1"/>
+          <include name="clickFAB2"/>
+          <include name="appiumServerStart"/>
+          <include name="clickV16Smoke"/>
+          <include name="clickSmartApps"/>
+          <include name="clickQAPushNotification"/>
+        </methods>
+      </class> <!-- testNGFiles.SmartAppTC1 -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Automation] -->

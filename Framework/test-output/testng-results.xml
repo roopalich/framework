@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209381" started-at="2016-08-23T03:40:11Z" finished-at="2016-08-23T03:43:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="209381" started-at="2016-08-23T03:40:11Z" finished-at="2016-08-23T03:43:40Z">
+      <class name="testNGFiles.SmartAppTC1">
+        <test-method status="PASS" signature="appiumServerStart()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="appiumServerStart" is-config="true" duration-ms="10085" started-at="2016-08-22T23:40:01Z" finished-at="2016-08-22T23:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumServerStart -->
+        <test-method status="PASS" signature="initalSetUp()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="initalSetUp" is-config="true" duration-ms="41288" started-at="2016-08-22T23:40:11Z" finished-at="2016-08-22T23:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalSetUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="login" duration-ms="32662" started-at="2016-08-22T23:40:52Z" finished-at="2016-08-22T23:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="clickV16Smoke()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickV16Smoke" duration-ms="85804" started-at="2016-08-22T23:41:25Z" depends-on-methods="testNGFiles.SmartAppTC1.login" finished-at="2016-08-22T23:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickV16Smoke -->
+        <test-method status="PASS" signature="clickSmartApps()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickSmartApps" duration-ms="1245" started-at="2016-08-22T23:42:51Z" depends-on-methods="testNGFiles.SmartAppTC1.clickV16Smoke" finished-at="2016-08-22T23:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSmartApps -->
+        <test-method status="PASS" signature="clickQAPushNotification()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickQAPushNotification" duration-ms="11627" started-at="2016-08-22T23:42:52Z" depends-on-methods="testNGFiles.SmartAppTC1.clickSmartApps" finished-at="2016-08-22T23:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickQAPushNotification -->
+        <test-method status="PASS" signature="clickFAB1()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickFAB1" duration-ms="13574" started-at="2016-08-22T23:43:04Z" depends-on-methods="testNGFiles.SmartAppTC1.clickQAPushNotification" finished-at="2016-08-22T23:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFAB1 -->
+        <test-method status="PASS" signature="clickQAPushNotification1()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickQAPushNotification1" duration-ms="3474" started-at="2016-08-22T23:43:17Z" depends-on-methods="testNGFiles.SmartAppTC1.clickFAB1" finished-at="2016-08-22T23:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickQAPushNotification1 -->
+        <test-method status="PASS" signature="enterDataQAPushNotification1()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="enterDataQAPushNotification1" duration-ms="11868" started-at="2016-08-22T23:43:21Z" depends-on-methods="testNGFiles.SmartAppTC1.clickQAPushNotification1" finished-at="2016-08-22T23:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDataQAPushNotification1 -->
+        <test-method status="PASS" signature="clickFAB2()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickFAB2" duration-ms="6150" started-at="2016-08-22T23:43:32Z" depends-on-methods="testNGFiles.SmartAppTC1.enterDataQAPushNotification1" finished-at="2016-08-22T23:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFAB2 -->
+        <test-method status="PASS" signature="clickADDFAB()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="clickADDFAB" duration-ms="1650" started-at="2016-08-22T23:43:39Z" depends-on-methods="testNGFiles.SmartAppTC1.clickFAB2" finished-at="2016-08-22T23:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickADDFAB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-22T23:43:40Z" finished-at="2016-08-22T23:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="appiumServerStop()[pri:0, instance:testNGFiles.SmartAppTC1@1dde4cb2]" name="appiumServerStop" is-config="true" duration-ms="6" started-at="2016-08-22T23:43:40Z" finished-at="2016-08-22T23:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumServerStop -->
+      </class> <!-- testNGFiles.SmartAppTC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

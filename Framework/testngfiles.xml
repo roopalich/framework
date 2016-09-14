@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation">
+    <test name="Smoke Test">
+    	<classes>
+        	<class name="testNGFiles.SmartAppTC1" />
+        	
+  		</classes>
+    </test>
+</suite>
