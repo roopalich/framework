@@ -21,7 +21,7 @@ public class TestGoogleBrowser {
 	}
 	@Test
 	public void testBrowser(){
-		System.out.println("test");
+		System.out.println("testing browser");
 	}
 	@AfterTest
 	public void closeBrowser(){
